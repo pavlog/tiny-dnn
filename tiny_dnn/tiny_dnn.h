@@ -31,6 +31,7 @@
 #include "tiny_dnn/layers/average_pooling_layer.h"
 #include "tiny_dnn/layers/average_unpooling_layer.h"
 #include "tiny_dnn/layers/batch_normalization_layer.h"
+#include "tiny_dnn/layers/linear_layer.h"
 #include "tiny_dnn/layers/cell.h"
 #include "tiny_dnn/layers/cells.h"
 #include "tiny_dnn/layers/concat_layer.h"
@@ -119,7 +120,7 @@ using dropout = tiny_dnn::dropout_layer;
 
 using input = tiny_dnn::input_layer;
 
-using linear = linear_layer;
+using linear = tiny_dnn::linear_layer;
 
 using lrn = tiny_dnn::lrn_layer;
 
